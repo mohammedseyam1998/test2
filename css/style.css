@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+img{
+    max-width: 100%;
+}
+.home{
+    position: relative;
+}
+.home .home_caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.home .home_caption h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.social_media a{
+    color: #fff;
+    font-size: 30px;
+    margin: 0 15px;
+}
+.about{
+    margin: 50px 0;
+    padding: 50px 0;
+}
+.about_inner{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.progress_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.progress{
+    height: 10px;
+    margin-bottom: 20px;
+}
+.experincs{
+    margin: 50px 0;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    
+}
+.experincs h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.single_experincs{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+.single_experincs:hover{
+    background-color: #007bff;
+    box-shadow: 2px 2px 7px 0px #404040;
+    color: #fff;
+}
+.single_experincs i{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.portfolio{
+    margin: 50px 0;
+    padding: 50px 0;
+   
+}
+.portfolio h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.port_item{
+    margin-bottom: 20px;
+}
